@@ -1,5 +1,6 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,50 +9,62 @@
     <title>Beato José Ferrer Esteve</title>
 </head>
 <body>
+
     <header>
         <h1>Beato José Ferrer Esteve</h1>
-        <p>Esta es una pagina de informacion sobre el Beato José Ferrer Esteve</p>
+        <p>Esta es una página de información sobre el Beato José Ferrer Esteve</p>
         <img src="img/jose-ferrer-placeholder.jfif" alt="Beato José Ferrer Esteve">
     </header>
+
     <nav>
         <a href="#vida">Datos Generales</a>
         <a href="#legado">Su vida y legados</a>
         <a href="#linea-tiempo">Línea de tiempo</a>
-        <a href=""></a>
+        <a href="#cuestionario">Trivia</a>
     </nav>
+
     <main>
-        <section class="vida">
+
+        <section class="vida" id="vida">
             <h2>Datos Sobre la vida del Beato José Ferrer Esteve</h2>
+
             <ul>
-                <li>Nació en Algemesí, Valencia, el 17 de febrero de 1904</li>
-                <li>Fue un sacerdote y religioso de las Escuelas Pías (Escolapio)</li>
-                <li>Desarrolló una intensa labor dedicada a la educación cristiana de la juventud</li>
-                <li>Murió mártir en Llombay, Valencia, el 9 de diciembre de 1936</li>
-                <li>Fue beatificado junto a otros mártires escolapios por la Iglesia</li>
-                <li>Su memoria litúrgica se conmemora el 9 de diciembre</li>
+                <li>Nació en Algemesí, Valencia, el 17 de febrero de 1904.</li>
+                <li>Fue un sacerdote y religioso de las Escuelas Pías (Escolapio).</li>
+                <li>Desarrolló una intensa labor dedicada a la educación cristiana de la juventud.</li>
+                <li>Murió mártir en Llombay, Valencia, el 9 de diciembre de 1936.</li>
+                <li>Fue beatificado junto a otros mártires escolapios por la Iglesia.</li>
+                <li>Su memoria litúrgica se conmemora el 9 de diciembre.</li>
             </ul>
         </section>
-        <section class="legado">
+
+        <section class="legado" id="legado">
             <h2>Su Vida, Obra y Legado</h2>
+
             <div>
                 <h3>Vida</h3>
                 <p>Sintió la vocación religiosa desde su infancia, ingresando en los colegios de los Escolapios donde se formó profundamente bajo el carisma de San José de Calasanz.</p>
             </div>
+
             <div>
                 <h3>Obra</h3>
                 <p>Trabajó intensamente en la enseñanza y en el ministerio sacerdotal, destacándose por su cercanía con los alumnos y su fidelidad a la Orden.</p>
             </div>
+
             <div>
                 <h3>Testimonio</h3>
                 <p>Se destacó por su compromiso con la educación, la vida religiosa, la amabilidad y su firme fidelidad a los compromisos de su fe.</p>
             </div>
+
             <div>
                 <h3>Legado</h3>
                 <p>Es recordado como un ejemplo luminoso de entrega total, testimonio joven y fidelidad inquebrantable al Evangelio hasta el martirio.</p>
             </div>
         </section>
+
         <section id="linea-tiempo">
             <h3>Línea de tiempo del Beato José Ferrer Esteve</h3>
+
             <ol>
                 <li><strong>1904:</strong> Nace en Algemesí, Valencia, el 17 de febrero.</li>
                 <li><strong>1926:</strong> Es ordenado sacerdote y religioso de las Escuelas Pías.</li>
@@ -60,6 +73,49 @@
                 <li><strong>Beatificación:</strong> Es reconocido oficialmente por la Iglesia por su testimonio de fe.</li>
             </ol>
         </section>
+
+        <!-- CUESTIONARIO -->
+        <section id="cuestionario">
+
+            <h2>Cuestionario sobre el Beato José Ferrer Esteve</h2>
+
+            <h3>1. ¿Dónde nació el Beato José Ferrer Esteve?</h3>
+            <input type="radio" name="p1" value="a"> Valencia<br>
+            <input type="radio" name="p1" value="b"> Lima<br>
+            <input type="radio" name="p1" value="c"> Roma<br>
+
+            <h3>2. ¿Cuándo murió?</h3>
+            <input type="radio" name="p2" value="a"> 10 de septiembre<br>
+            <input type="radio" name="p2" value="b"> 9 de diciembre de 1936<br>
+            <input type="radio" name="p2" value="c"> 1 de junio<br>
+
+            <h3>3. ¿Cuándo fue ordenado sacerdote?</h3>
+            <input type="radio" name="p3" value="a"> 1920<br>
+            <input type="radio" name="p3" value="b"> 1922<br>
+            <input type="radio" name="p3" value="c"> 1926<br>
+
+            <h3>4. ¿A qué orden perteneció?</h3>
+            <input type="radio" name="p4" value="a"> Orden de las Escuelas Pías<br>
+            <input type="radio" name="p4" value="b"> Orden de Predicadores<br>
+            <input type="radio" name="p4" value="c"> Orden de los Hermanos Menores<br>
+
+            <h3>5. Además de docente, ¿qué otras habilidades artísticas tenía?</h3>
+            <input type="radio" name="p5" value="a"> Era músico y organista<br>
+            <input type="radio" name="p5" value="b"> Era pintor<br>
+            <input type="radio" name="p5" value="c"> Era escritor<br>
+
+            <br>
+
+            <button id="comprobar" type="button">Comprobar</button>
+            <button id="reiniciar" type="button">Reiniciar</button>
+
+            <div id="resultado"></div>
+
+        </section>
+
     </main>
+
+    <script src="js/javascript3.js"></script>
+
 </body>
 </html>
